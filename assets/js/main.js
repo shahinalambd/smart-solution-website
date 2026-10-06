@@ -17,7 +17,7 @@ const AR = {
   cta_book:"احجز فحصاً مجانياً", cta_plan:"خطّط لمعالجتك", cta_wa:"تواصل معنا",
   map_title:"موقعنا", map_text:"نغطي مسقط والمناطق المجاورة. اتصل بنا قبل الزيارة وسنرشدك.", map_btn:"احصل على الاتجاهات",
   ft_about:"مكافحة الحشرات للمنازل والمنشآت في مسقط: الحشرات والنمل الأبيض والقوارض وغيرها.",
-  ft_pages:"الصفحات", ft_services:"الخدمات", ft_contact:"التواصل", ft_rights:"جميع الحقوق محفوظة.", ft_by:"تصميم وتطوير",
+  ft_pages:"الصفحات", ft_services:"الخدمات", ft_contact:"التواصل", ft_rights:"جميع الحقوق محفوظة.", ft_by:"تصميم",
   h_title:"منازل ومنشآت خالية من الحشرات في جميع أنحاء مسقط",
   h_lead:"نعالج الحشرات والنمل الأبيض والقوارض في الفلل والشقق والمكاتب والمطاعم والمباني، بخطة واضحة قبل البدء ومتابعة بعد الانتهاء.",
   h_pick:"ما الذي تواجهه؟",
@@ -217,7 +217,7 @@ function renderLayout() {
     </div>
     <div class="wrap f-bottom">
       <span>© ${new Date().getFullYear()} <span class="js-brand-full"></span>. <span data-i18n="ft_rights">All rights reserved.</span></span>
-      <span><span data-i18n="ft_by">Designed &amp; developed by</span> <a href="https://vartexflow.com" target="_blank" rel="noopener">VartexFlow</a></span>
+      <span><span data-i18n="ft_by">Designed by</span> VartexFlow</span>
     </div>
   </footer>`;
 
