@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact – Smart Solution Pest Control, Muscat</title>
+<meta name="description" content="Book a free pest inspection in Muscat. Call or message Smart Solution.">
+<link rel="icon" href="assets/img/emblem.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="contact">
+<div id="site-header"></div>
+
+<main>
+  <header class="page-hero">
+    <div class="wrap">
+      <p class="crumbs"><a href="index.html" data-i18n="nav_home">Home</a> / <span data-i18n="nav_contact">Contact</span></p>
+      <h1 data-i18n="c_title">Book a free inspection</h1>
+      <p class="lead" data-i18n="c_lead">Tell us where you are and what you've seen. We'll get back to you to arrange a visit.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap contact-grid">
+      <div class="c-cards" id="cCards"></div>
+      <form class="form" id="bookForm" novalidate>
+        <div class="row">
+          <div class="field"><label for="fName" data-i18n="c_name">Your name</label><input id="fName" name="name" autocomplete="name" required><span class="err" data-i18n="c_err_name">Please enter your name.</span></div>
+          <div class="field"><label for="fPhone" data-i18n="c_phone">Phone number</label><input id="fPhone" name="phone" type="tel" autocomplete="tel" required dir="ltr" placeholder="+000"><span class="err" data-i18n="c_err_phone">Please enter a phone number we can reach.</span></div>
+        </div>
+        <div class="row">
+          <div class="field"><label for="fArea" data-i18n="c_area">Area</label><input id="fArea" name="area" data-i18n-ph="c_area_ph" placeholder="e.g. Al Khuwair, Qurum, Seeb"></div>
+          <div class="field"><label for="fProp" data-i18n="c_prop">Property type</label><select id="fProp" name="prop"></select></div>
+        </div>
+        <div class="field"><label for="fPest" data-i18n="c_pest">Main pest</label><select id="fPest" name="pest"></select></div>
+        <div class="field"><label for="fMsg" data-i18n="c_msg">Anything else we should know?</label><textarea id="fMsg" name="msg" data-i18n-ph="c_msg_ph" placeholder="Where you've seen them, how long it's been going on…"></textarea></div>
+        <button class="btn btn-primary" type="submit"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16v12H8l-4 4V4Z"/></svg><span data-i18n="c_send">Send booking</span></button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
